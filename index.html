@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Soma</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Valor 1 (input text)
+    Valor 2 (input text)
+    Somar (input button)
+    Resultado (input text)-->
+    <h1>Calculadora de Soma</h1>
+    <div class="container">
+        <form>            
+            <div class="field">
+                <label for="number1">Valor 1</label>
+                <input type="number" name="number1" required>
+            </div>
+            <div class="field">
+                <label for="number2">Valor 2</label>
+                <input type="number" name="number2" required>
+            </div>
+            
+            <button>Somar</button>
+            <div class="field">
+                <label for="result">Resultado</label>
+                <input type="number" name="result">
+            </div>            
+        </form>       
+
+    </div>
+
+    <script src="soma.js"></script>
+</body>
+</html>
